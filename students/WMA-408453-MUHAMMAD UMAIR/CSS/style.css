@@ -1,0 +1,312 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-color: rgb(247, 245, 242);
+}
+.font{
+    display: none;
+}
+.topbar {
+    width: 100%;
+    background-color: #F85606;
+}
+
+.topbar ul {
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    padding-right: 200px;
+    gap: 20px;
+}
+
+.topbar ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.topbar ul li a:hover {
+    color: #eb8c5c;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #F85606;
+    margin-top: -17px;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+}
+
+.logo a img {
+    color: #f8efef;
+    width: 200px;
+    margin-top: -70px;
+    margin-left: 300px;
+    position: absolute;
+    margin-left: 50px;
+}
+
+.navbar .search input {
+    width: 700px;
+    border: none;
+    padding: 10px;
+    margin-left: 260px;
+    margin-top: -40px;
+}
+
+.navbar .font {
+    margin-left: 10px;
+}
+
+.navbar .font-2 {
+    position: absolute;
+    margin-left: 880px;
+    margin-top: -5px;
+
+}
+
+.shop img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height:auto;
+    margin-top: 10px;
+}
+
+.h2 h2 {
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.pars {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.pars a {
+    text-decoration: none;
+    border: 1px solid #F85606;
+    color: #F85606;
+    padding: 5px;
+}
+
+.pars p {
+    color: #F85606;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.cards img {
+    width: 200px;
+}
+
+.cards p {
+    width: 180px;
+    line-height: 20px;
+}
+
+.cards .oranged {
+    color: #F85606;
+}
+
+.cards .card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6 {
+    padding: 10px;
+}
+
+.cards .card-1:hover,
+.card-2:hover,
+.card-3:hover,
+.card-4:hover,
+.card-5:hover,
+.card-6:hover {
+    box-shadow: 0px 0px 10px rgb(12, 12, 11);
+    cursor: pointer;
+}
+
+.h2-2 {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.cardss-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardss-1 .card-7,
+.card-8,
+.card-9,
+.card-10,
+.card-11,
+.card-12,
+.card-13,
+.card-14,
+.card-15,
+.card-16,
+.card-17,
+.card-18,
+.card-19,
+.card-20,
+.card-21,
+.card-22 {
+    border: 1px solid rgb(121, 115, 115);
+}
+
+.cardss-1 .card-7:hover,
+.card-8:hover,
+.card-9:hover,
+.card-10:hover,
+.card-11:hover,
+.card-12:hover,
+.card-13:hover,
+.card-14:hover,
+.card-16:hover,
+.card-17:hover,
+.card-18:hover,
+.card-19:hover,
+.card-20:hover,
+.card-21:hover,
+.card-22:hover {
+    box-shadow: 0px 0px 1px 1px rgb(12, 12, 11);
+    transform: scale(1.01);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.cardss-1 img {
+    width: 180px;
+    height: 130px;
+}
+
+.h2-3 h2 {
+    margin-left: 10px;
+    margin-top: 40px;
+}
+
+.cardsss {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 30px;
+}
+
+.cardsss p {
+    width: 180px;
+    padding: 5px;
+    line-height: 17px;
+}
+
+.cardsss img {
+    width: 200px;
+    margin-top: 20px;
+    height: 200px;
+}
+
+.cardsss span {
+    color: #F85606;
+}
+
+.cardsss .card-23:hover,
+.card-24:hover,
+.card-25:hover,
+.card-26:hover,
+.card-27:hover,
+.card-28:hover,
+.card-29:hover,
+.card-30:hover,
+.card-31:hover,
+.card-32:hover,
+.card-33:hover,
+.card-34:hover,
+.card-35:hover,
+.card-36:hover,
+.card-37:hover,
+.card-38:hover,
+.card-39:hover,
+.card-40:hover,
+.card-41:hover,
+.card-42:hover,
+.card-43:hover,
+.card-44:hover,
+.card-45:hover,
+.card-46:hover,
+.card-47:hover,
+.card-48:hover,
+.card-23:hover,
+.card-23:hover,
+.card-23:hover,
+.card-23:hover,
+.card-23:hover,
+.card-23:hover,
+.card-23:hover,
+.card-23:hover,
+.card-23:hover,
+.card-49:hover,
+.card-50:hover,
+.card-51:hover,
+.card-52:hover,
+.card-53:hover,
+.card-54:hover,
+.card-55:hover,
+.card-56:hover,
+.card-57:hover,
+.card-58:hover,
+.card-59:hover,
+.card-60:hover,
+.card-61:hover,
+.card-62:hover,
+.card-63:hover,
+.card-64:hover,
+.card-65:hover,
+.card-66:hover,
+.card-67:hover,
+.card-68:hover,
+.card-69:hover,
+.card-70:hover,.card-100:hover {
+    box-shadow: 1px 1px 3px 0px black;
+}
+.button-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.button-2 a{
+    text-decoration: none;
+    color: rgb(51, 51, 201);
+    border: 1px solid rgb(51, 51, 201);
+    width: 350px;
+    text-align: center;
+    padding: 5px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 40px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul li a{
+    text-decoration: none;
+}
+.footer h3{
+    color: rgb(78, 78, 222);
+}

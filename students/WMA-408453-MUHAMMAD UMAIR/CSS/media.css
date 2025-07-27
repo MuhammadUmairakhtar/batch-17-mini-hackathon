@@ -1,0 +1,42 @@
+@media (max-width:320px) {
+    .topbar{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+    .font{
+        display: block;
+        margin-left: 300px;
+    }
+    .shop img{
+        width: 100%;
+        height: auto;
+        margin-left: 0px;
+    }
+    .footer{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .cards{
+        flex-wrap: wrap;
+    }
+    .pars{
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+    .cardss-1{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .cardsss{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .button-2 a{
+        width: 100%;
+    }
+}
